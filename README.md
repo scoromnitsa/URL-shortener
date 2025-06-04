@@ -16,7 +16,7 @@
 1. Клонируйте репозиторий:
    ```bash
    git clone https://github.com/scoromnitsa/URL-shortener.git
-   cd url_shortener
+   cd URL-shortener
 2. Настройте окружение:
     make setup-env
 3. Установите зависимости:
