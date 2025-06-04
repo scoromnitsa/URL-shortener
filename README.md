@@ -19,10 +19,10 @@
    cd URL-shortener/url_shortener
 
 2. Установите зависимости и настройте окружение:
-   pip install Django
-	pip install djangorestframework
-	pip install drf-yasg
-	pip install python-dotenv
+   	pip install Django==5.1.6
+	pip install djangorestframework==3.14.0
+	pip install drf-yasg==1.21.5
+	pip install python-dotenv1.0.0
 
    Создайте файл .env:
    Основные настройки в файле .env (ОБЯЗАТЕЛЬНО использовать кодирование файла UTF-8):         
