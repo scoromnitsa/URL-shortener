@@ -27,10 +27,10 @@
 Сервер будет доступен по адресу: http://localhost:8000
 
 ### Настройка
-Основные настройки в файле .env (ОБЯЗАТЕЛЬНО использовать кодирование файла UTF-8):
-    DEBUG=True
-    SECRET_KEY=ваш_секретный_ключ
-    DATABASE_URL=sqlite:///db.sqlite3  # Для PostgreSQL: postgres://user:password@localhost/dbname
+Основные настройки в файле .env (ОБЯЗАТЕЛЬНО использовать кодирование файла UTF-8):         
+    DEBUG=True      
+    SECRET_KEY=ваш_секретный_ключ            
+    DATABASE_URL=sqlite:///db.sqlite3             # Для PostgreSQL: postgres://user:password@localhost/dbname          
     ALLOWED_HOSTS=localhost,127.0.0.1
 
 ### API Endpoints
